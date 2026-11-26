@@ -1,0 +1,101 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1909 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+(GreenLedger | Release Notes) Tj
+T*
+(Version 2.3.1 | Published November 12, 2026) Tj
+T*
+T*
+(Summary) Tj
+T*
+(This maintenance release adds clearer review states to the monthly materials ledger and) Tj
+T*
+(improves the workflow for exporting a completed report.) Tj
+T*
+T*
+(Ledger review) Tj
+T*
+(A report now displays Draft, Ready for review, or Approved. A user with Reviewer access) Tj
+T*
+(can move a report from Ready for review to Approved and add a review note. Authors may) Tj
+T*
+(return a report to Draft when corrections are needed. The activity panel records the) Tj
+T*
+(state change and the account that made it.) Tj
+T*
+T*
+(Report download) Tj
+T*
+(The report menu now offers a comma-separated values download for the current reporting) Tj
+T*
+(period. The file includes category, facility, reporting month, quantity, unit, and) Tj
+T*
+(reviewer state. Downloading a report does not change its approval state.) Tj
+T*
+T*
+(Usability improvements) Tj
+T*
+(The month selector retains its last-used value during a session. Empty categories are) Tj
+T*
+(hidden in the summary chart, but remain available in the detailed ledger. The release) Tj
+T*
+(includes performance work for opening large facility lists; no numerical improvement is) Tj
+T*
+(claimed.) Tj
+T*
+T*
+(Availability) Tj
+T*
+(Version 2.3.1 is rolling out to hosted workspaces. Administrators using a private) Tj
+T*
+(installation should follow their normal upgrade process. The notes do not state a) Tj
+T*
+(minimum browser version or a fixed completion time for the hosted rollout.) Tj
+T*
+T*
+(Not included) Tj
+T*
+(This release does not announce automatic emissions calculations, integrations with) Tj
+T*
+(accounting systems, mobile data entry, or export to spreadsheet formats other than CSV.) Tj
+T*
+(Do not describe those capabilities as part of this release without another source.) Tj
+ET
+BT
+/F1 8 Tf
+50 28 Td
+(Page 1) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000344 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2305
+%%EOF

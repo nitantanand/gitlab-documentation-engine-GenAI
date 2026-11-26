@@ -1,0 +1,123 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2404 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+(CivicRoute Service API | Integration Reference) Tj
+T*
+(API release: 2.0 | Base path: /service/v2) Tj
+T*
+T*
+(Overview) Tj
+T*
+(CivicRoute stores public-service appointment slots and reservations for participating) Tj
+T*
+(offices. JSON is used for request and response bodies. Timestamps are ISO 8601 UTC) Tj
+T*
+(strings.) Tj
+T*
+T*
+(Authentication) Tj
+T*
+(Send an access token in the Authorization header using the Bearer scheme. Tokens are) Tj
+T*
+(issued by an administrator through the CivicRoute console. The API reference does not) Tj
+T*
+(specify token lifetime or refresh behavior.) Tj
+T*
+T*
+(List available slots) Tj
+T*
+(GET /service/v2/offices/{office_id}/slots?from=2026-11-01&to=2026-11-07) Tj
+T*
+(A successful response contains an array of slots. Each slot has slot_id, office_id,) Tj
+T*
+(starts_at, ends_at, and service_code. Empty ranges return an empty array.) Tj
+T*
+T*
+(Reserve a slot) Tj
+T*
+(POST /service/v2/reservations) Tj
+T*
+(Required JSON fields: slot_id, resident_reference, and contact_email. On success, the) Tj
+T*
+(response includes reservation_id, slot_id, state, and created_at. A newly created) Tj
+T*
+(reservation has state confirmed.) Tj
+T*
+T*
+(Retrieve a reservation) Tj
+T*
+(GET /service/v2/reservations/{reservation_id}) Tj
+T*
+(The response contains the same reservation fields plus the office identifier. A) Tj
+T*
+(reservation belonging to another tenant is not returned.) Tj
+T*
+T*
+(Cancel a reservation) Tj
+T*
+(POST /service/v2/reservations/{reservation_id}/cancellation) Tj
+T*
+(The endpoint accepts an optional reason string. A successful response reports state) Tj
+T*
+(cancelled and cancelled_at. The reference does not describe reinstating a cancelled) Tj
+T*
+(reservation.) Tj
+T*
+T*
+(Error handling) Tj
+T*
+(400 indicates a malformed request or invalid date range. 401 means the token is missing) Tj
+T*
+(or invalid. 404 means the office, slot, or reservation could not be found. 409 is) Tj
+T*
+(returned when a slot is no longer available. Error bodies contain code and message) Tj
+T*
+(fields.) Tj
+T*
+T*
+(Operational notes) Tj
+T*
+(The API uses pagination only on the office directory endpoint; slot searches return at) Tj
+T*
+(most 100 results. No general request rate, uptime target, webhook support, or retry) Tj
+T*
+(policy is specified. Clients should not treat undocumented behavior as a guarantee.) Tj
+ET
+BT
+/F1 8 Tf
+50 28 Td
+(Page 1) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000344 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2800
+%%EOF

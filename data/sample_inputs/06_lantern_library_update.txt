@@ -1,0 +1,5 @@
+Lantern Library 1.8 | Service Update | November 2026
+
+The reading-room calendar now shows room capacity beside each bookable time. Staff can mark a reservation as attended or cancelled from the daily schedule. Visitors receive an email when a reservation is cancelled by library staff.
+
+The catalog page remembers the selected branch for the duration of a browser session. Search results can be sorted by title or publication year. This release does not add online renewals, wait-list notifications, or a mobile application.

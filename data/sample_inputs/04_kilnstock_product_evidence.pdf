@@ -1,0 +1,111 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2155 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+(KilnStock | Product Evidence Sheet) Tj
+T*
+(Prepared for documentation review | Fictional product sample) Tj
+T*
+T*
+(Product at a glance) Tj
+T*
+(KilnStock is a browser-based inventory log for independent ceramics studios. Staff) Tj
+T*
+(record clay, glaze, and packaging supplies by storage area. The evidence in this sheet) Tj
+T*
+(is intentionally bounded to the statements below.) Tj
+T*
+T*
+(Confirmed functions) Tj
+T*
+(- A stock entry has an item name, material category, quantity, unit, and storage) Tj
+T*
+(location.) Tj
+T*
+(- Users can create a restock reminder with a threshold quantity and an optional supplier) Tj
+T*
+(note.) Tj
+T*
+(- The activity view lists additions and adjustments with the account name and timestamp.) Tj
+T*
+(- A manager can download the current stock list as CSV.) Tj
+T*
+T*
+(Access model) Tj
+T*
+(Workspace managers can invite members and change a member's access between Manager and) Tj
+T*
+(Stock Clerk. Both roles can view item quantities. Stock Clerks can add entries and) Tj
+T*
+(record adjustments; only Managers can archive an item or manage invitations. The source) Tj
+T*
+(does not mention single sign-on or public sharing.) Tj
+T*
+T*
+(Claims that need evidence) Tj
+T*
+(A draft marketing paragraph says KilnStock predicts future demand, syncs live with) Tj
+T*
+(supplier catalogs, and prevents all stockouts. None of those claims is substantiated by) Tj
+T*
+(this sheet. They must be omitted or labeled as unverified until an authoritative source) Tj
+T*
+(is supplied.) Tj
+T*
+T*
+(Important boundaries) Tj
+T*
+(No barcode scanning, purchase-order workflow, multi-currency pricing, or automatic) Tj
+T*
+(supplier ordering is documented. CSV export fields beyond those listed above are not) Tj
+T*
+(specified. Do not infer a maximum inventory count, retention period, backup schedule, or) Tj
+T*
+(uptime commitment.) Tj
+T*
+T*
+(Intended readers) Tj
+T*
+(This brief is for studio owners and stockroom staff evaluating whether the documented) Tj
+T*
+(inventory workflow fits their day-to-day needs. It is not a security, compliance, or) Tj
+T*
+(service-level statement.) Tj
+ET
+BT
+/F1 8 Tf
+50 28 Td
+(Page 1) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000344 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2551
+%%EOF

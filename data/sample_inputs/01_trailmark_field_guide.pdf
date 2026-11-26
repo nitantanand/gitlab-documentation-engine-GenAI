@@ -1,0 +1,114 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2276 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+(Trailmark Field Operations | Setup and Use Guide) Tj
+T*
+(Document edition: 1.4 | October 2026) Tj
+T*
+T*
+(Purpose) Tj
+T*
+(Trailmark helps environmental survey crews plan site visits and record observations in) Tj
+T*
+(the field. A workspace contains sites, visit plans, checklists, and submitted inspection) Tj
+T*
+(records.) Tj
+T*
+T*
+(Create a workspace) Tj
+T*
+(A workspace owner invites team members by email and assigns either Coordinator or) Tj
+T*
+(Observer access. Coordinators can create sites, edit checklists, and assign visits.) Tj
+T*
+(Observers can view assigned visits and submit completed checklists. The source does not) Tj
+T*
+(describe custom roles.) Tj
+T*
+T*
+(Prepare a field visit) Tj
+T*
+(Open Visits, choose New Visit, select a site, and set a planned date. Add one or more) Tj
+T*
+(checklist templates, then assign a crew member. A visit can be saved as a draft before) Tj
+T*
+(it is assigned. The site record includes a display name, location description, and) Tj
+T*
+(optional map coordinates.) Tj
+T*
+T*
+(Record observations) Tj
+T*
+(Each checklist item supports a response, a short note, and up to three image) Tj
+T*
+(attachments. Required questions must be answered before a visit can be submitted.) Tj
+T*
+(Submitted records show the submitter and submission time. Editing a submitted record is) Tj
+T*
+(not documented.) Tj
+T*
+T*
+(Offline use) Tj
+T*
+(Previously opened visits can be filled in without a network connection. The app queues) Tj
+T*
+(changes on the device and uploads them after connectivity returns. The guide does not) Tj
+T*
+(state how simultaneous edits are reconciled or how long queued changes are retained.) Tj
+T*
+T*
+(Data export) Tj
+T*
+(Coordinators may download a site visit report as a PDF from the site page. The PDF) Tj
+T*
+(includes visit dates, checklist responses, notes, and attached image thumbnails. Bulk) Tj
+T*
+(export and spreadsheet output are not listed.) Tj
+T*
+T*
+(Limits and support) Tj
+T*
+(No maximum workspace size, attachment storage quota, or supported device list is) Tj
+T*
+(specified here. Contact the workspace owner for access changes. These instructions) Tj
+T*
+(describe the documented behavior only; do not infer features that are not mentioned.) Tj
+ET
+BT
+/F1 8 Tf
+50 28 Td
+(Page 1) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000344 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2672
+%%EOF

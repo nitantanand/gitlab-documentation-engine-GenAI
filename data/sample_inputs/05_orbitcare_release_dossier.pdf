@@ -1,0 +1,198 @@
+%PDF-1.4
+%����
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3147 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+(OrbitCare Workshop | Product and Engineering Release Dossier) Tj
+T*
+(Release 3.2.0 | October 28, 2026) Tj
+T*
+(Audience: facilities coordinators, technicians, and integration developers) Tj
+T*
+T*
+(1. Release overview) Tj
+T*
+(OrbitCare is a fictional service console for tracking maintenance of shared workshop) Tj
+T*
+(equipment. Release 3.2 adds recurring inspection plans, an equipment history export, and) Tj
+T*
+(a read-only service endpoint. This dossier combines customer-facing facts with internal) Tj
+T*
+(notes; keep the distinction clear when preparing public material.) Tj
+T*
+T*
+(2. Confirmed user changes) Tj
+T*
+(Inspection plans can be created for an equipment record with a cadence of weekly,) Tj
+T*
+(monthly, or quarterly. A plan assigns a checklist and a responsible team. When an) Tj
+T*
+(inspection is due, it appears in the team's work queue. The release does not describe) Tj
+T*
+(automatic calendar invitations.) Tj
+T*
+T*
+(Equipment history can be downloaded as CSV by users with Coordinator access. The export) Tj
+T*
+(contains equipment label, event date, event type, work-order reference, and completion) Tj
+T*
+(state. Technician comments are excluded from the downloadable file. The report covers) Tj
+T*
+(one equipment record at a time.) Tj
+T*
+T*
+(3. API addition) Tj
+T*
+(GET /api/v3/equipment/{equipment_id}/events returns recent events for one equipment) Tj
+T*
+(record. Authentication uses the existing workspace access token. Each result includes) Tj
+T*
+(event_id, occurred_at, event_type, and work_order_id. Results are ordered newest first,) Tj
+T*
+(with a default page size of 25 and a maximum page size of 100. The response includes) Tj
+T*
+(next_cursor when another page is available.) Tj
+T*
+T*
+(The endpoint is read-only. Creating, editing, or deleting events through this endpoint) Tj
+T*
+(is not supported. API access must be enabled by a workspace administrator. The source) Tj
+T*
+(does not specify a public API availability SLA.) Tj
+T*
+T*
+(4. Permission change) Tj
+T*
+(A new workspace setting, Allow external equipment links, controls whether Coordinators) Tj
+T*
+(can create a view-only link for an equipment record. The setting is off by default.) Tj
+T*
+(Workspace administrators can change it. A link does not grant access to the rest of the) Tj
+T*
+(workspace. Link expiry and revocation behavior are not specified in this release note) Tj
+T*
+(and should be confirmed before being documented.) Tj
+T*
+T*
+(5. Engineering observations) Tj
+T*
+(An internal benchmark reported that the median load time for the equipment history page) Tj
+T*
+(fell from 1.8 seconds to 1.2 seconds across a sample of 400 requests in a staging) Tj
+T*
+(environment. This is an internal staging result, not a production guarantee. The test) Tj
+T*
+(did not measure cold-cache behavior or mobile networks.) Tj
+T*
+T*
+(The background queue was changed to retry a failed inspection reminder twice, with a) Tj
+T*
+(five-minute delay between attempts. Engineering has not supplied delivery-rate) Tj
+T*
+(measurements. A reminder may still be delayed if the notification provider is) Tj
+ET
+BT
+/F1 8 Tf
+50 28 Td
+(Page 1) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1797 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+12 TL
+(unavailable.) Tj
+T*
+T*
+(6. Security and privacy notes) Tj
+T*
+(The endpoint returns equipment event metadata only and requires a valid workspace token.) Tj
+T*
+(External links expose the equipment label and event dates to anyone who has the link,) Tj
+T*
+(when the workspace setting is enabled. Do not claim that linked records are private to) Tj
+T*
+(invited workspace members. The release dossier does not specify link entropy, expiry, or) Tj
+T*
+(audit logging for link views.) Tj
+T*
+T*
+(7. Migration and compatibility) Tj
+T*
+(No database migration is required for hosted workspaces. Self-managed installations must) Tj
+T*
+(upgrade the API service and web application together. The minimum supported application) Tj
+T*
+(version for API clients is not listed. Clients should ignore response fields they do not) Tj
+T*
+(recognize; no compatibility window is promised.) Tj
+T*
+T*
+(8. Items requiring confirmation) Tj
+T*
+(A planning note proposes QR-code labels, predictive maintenance, automatic parts) Tj
+T*
+(ordering, and a mobile technician app. These are roadmap ideas only and are not included) Tj
+T*
+(in version 3.2.0. Another draft says external links expire after 24 hours, but no) Tj
+T*
+(approved source confirms that statement. Do not publish either claim as fact.) Tj
+T*
+T*
+(9. Customer-facing recap) Tj
+T*
+(Teams can schedule recurring equipment inspections, download a CSV history for an) Tj
+T*
+(individual asset, and retrieve recent event metadata through a read-only API endpoint.) Tj
+T*
+(Coordinators may share an equipment-specific view-only link only when an administrator) Tj
+T*
+(enables the setting. The benchmark and roadmap ideas should remain out of) Tj
+T*
+(customer-facing claims unless separately approved.) Tj
+ET
+BT
+/F1 8 Tf
+50 28 Td
+(Page 2) Tj
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000224 00000 n 
+0000000350 00000 n 
+0000003549 00000 n 
+0000003675 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+5524
+%%EOF
